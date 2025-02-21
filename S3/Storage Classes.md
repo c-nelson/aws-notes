@@ -1,10 +1,10 @@
 https://aws.amazon.com/s3/storage-classes/
 https://aws.amazon.com/s3/pricing/
 
-Types of [[S3]] storage classes:
+Types of [S3](S3.md) storage classes:
 ## Standard
 - Default
-- Objects are replicated across at least 3 [[Resilience#AZ|AZs]] within the region.
+- Objects are replicated across at least 3 [AZs](../Fundamentals/Resilience.md#AZ) within the region.
 - 99.999999999% durability, for 1:10,000,000 objects loss per 10,000 years
 - Content-MD5 Checksums
 - Cyclic Redundancy Checks (CRCs) - detect and fix corruption

@@ -13,7 +13,7 @@ The templates create **Stacks**
 | Mappings       | Create key/value pairs.                                                                                                       |
 | Conditions     | Set conditions in the template. First create and name a condition, then set the condition under a resource to that condition. |
 | Outputs        | Output information after creation of resources using template.                                                                |
-![[Pasted image 20250127212735.png]]
+![Pasted image 20250127212735.png](_atts/Pasted%20image%2020250127212735.png)
 
 Example:
 ```yaml

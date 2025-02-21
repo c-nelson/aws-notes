@@ -1,14 +1,14 @@
 ***
-[[Resilience#Region|Regional]] Service - operates in all AZs in the region.
+[Regional](../Fundamentals/Resilience.md#Region) Service - operates in all AZs in the region.
 ***
 
 Example:
-![[Pasted image 20250217192933.png]]
+![Pasted image 20250217192933.png](_atts/Pasted%20image%2020250217192933.png)
 
 - Isolated networks
 - Nothing IN or OUT without explicit configuration
 
-Custom [[VPC]]s allow:
+Custom [VPC](VPC.md)s allow:
 - Flexible config - simple or multi-tier
 - Hybrid networking - other cloud & on-premises
 - Config option - Default or Dedicated Tenancy
@@ -22,11 +22,11 @@ Custom [[VPC]]s allow:
 - Optional single assigned IPv6 /56 CIDR block
 
 DNS in a VPC
-- Provided by [[R53]]
+- Provided by [R53](../R53/R53.md)
 - DNS IP address is VPC Base + 2
 	- Ex. 10.0.0.0 -> 10.0.0.2
 - `enableDnsHostnames` - whether instances with public IPs in a VPC are given DNS names
 - `enableDnsSupport` - enables DNS resolution in VPC
 
 ## DHCP Option Set
-Configuration applied to a VPC. There's one per VPC. It controls how IPs are assigned automatically. Flows down to the [[Subnets]].
+Configuration applied to a VPC. There's one per VPC. It controls how IPs are assigned automatically. Flows down to the [Subnets](Subnets.md).

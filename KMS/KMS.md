@@ -1,6 +1,6 @@
 Key Management Service
 ***
-[[Resilience#Region|Regional]] & [[Public vs Private Services#Public service|Public Service]]
+[Regional](../Fundamentals/Resilience.md#Region) & [Public Service](../Fundamentals/Public%20vs%20Private%20Services.md#Public%20service)
 ***
 - Create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications.
 - Can use symmetric and asymmetric keys.
@@ -22,7 +22,7 @@ Key Management Service
 	- To use directly within apps or services
 - Support rotation - physical backing material changed
 
-![[Pasted image 20250211211254.png]]
+![Pasted image 20250211211254.png](_atts/Pasted%20image%2020250211211254.png)
 
 ## Data Encryption Keys (DEKs)
 - GenerateDataKey operation
@@ -40,10 +40,10 @@ Key Management Service
 	- Discard the plaintext key
 
 ## Policies and Security
-- Every key has a Key Policy (like a [[S3 Security#Bucket Policies|resource policy]])
+- Every key has a Key Policy (like a [resource policy](../S3/S3%20Security.md#Bucket%20Policies))
 - Unlike other resource policies, key policies have to be told to trust even the root account user.
 	- Beware of removing access to key
 - Admins can be given access to create and manage keys but withheld access to do encryption/decryption on data.
 	- Common security requirement
 - Generally key policies are used to allow management of keys
-- Then, IAM [[Identity Policies]] are used to allow usage of keys.
+- Then, IAM [Identity Policies](../Accounts/Identity%20Policies.md) are used to allow usage of keys.

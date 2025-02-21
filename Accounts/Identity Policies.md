@@ -1,4 +1,4 @@
-[[IAM]] Policies
+[IAM](IAM.md) Policies
 
 Grants or denies access AWS products and features to any identity that uses the policy.
 
@@ -14,7 +14,7 @@ Statement properties:
 - Sid - name the statement
 - Effect - Allow/deny
 - Action - `service:operation`, wildcard, or list of operations
-- Resource - wildcards or [[ARN]], ARN list
+- Resource - wildcards or [ARN](../Fundamentals/ARN.md), ARN list
 
 ```json
 {

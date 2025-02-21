@@ -1,6 +1,6 @@
-You can use [[S3]] Object Lock to store objects using a _write-once-read-many_ (WORM) model. It can help you prevent objects from being deleted or overwritten for a fixed amount of time or indefinitely.
+You can use [S3](S3.md) Object Lock to store objects using a _write-once-read-many_ (WORM) model. It can help you prevent objects from being deleted or overwritten for a fixed amount of time or indefinitely.
 
-![[Pasted image 20250217130332.png]]
+![Pasted image 20250217130332.png](_atts/Pasted%20image%2020250217130332.png)
 
 - WORM - no delete or overwrite
 - Can be enabled on new buckets, support request for existing buckets

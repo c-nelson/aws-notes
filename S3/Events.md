@@ -1,8 +1,8 @@
-[[S3]] notification feature enables you to receive notifications when certain events happen in your bucket.
+[S3](S3.md) notification feature enables you to receive notifications when certain events happen in your bucket.
 
 [[EventBridge]] is likely the better solution.
 
-![[Pasted image 20250217122004.png]]
+![Pasted image 20250217122004.png](_atts/Pasted%20image%2020250217122004.png)
 
 - Create Event Notification Config
 - Receiving service needs a resource policy allowing S3

@@ -1,4 +1,4 @@
-[[S3]] Encryption
+[S3](S3.md) Encryption
 
 Buckets aren't encrypted, objects are.
 
@@ -19,7 +19,7 @@ Server-side encryption with customer-provided keys
 - To request data, you need to provide the key
 - This saves local compute resources vs client-side
 #### SSE-S3
-Server-side encryption with [[S3]] managed keys
+Server-side encryption with [S3](S3.md) managed keys
 - Default option
 - AES256 algo #AWSCommonTest
 - Just provide the object, S3 creates and manages a key for every object
@@ -32,9 +32,9 @@ Server-side encryption with [[S3]] managed keys
 	- may not be acceptable for highly controlled environments
 	- The S3 admin manager role can always view the data
 #### SSE-KMS
-Sever-side encryption with [[KMS]] managed keys
+Sever-side encryption with [KMS](../KMS/KMS.md) managed keys
 - This allows the customer to create and manage the key in KMS
-- When an object is upload, KMS sends S3 a plaintext key and a [[KMS#Data Encryption Keys (DEKs)|DEK key]]
+- When an object is upload, KMS sends S3 a plaintext key and a [DEK key](../KMS/KMS.md#Data%20Encryption%20Keys%20(DEKs))
 	- KMS Keys can only encrypt up to 4KB, so DEK keys are used
 	- KMS does not store the DEK key, only generates them and gives them to S3
 - Object is encrypted using the plaintext key, and then the encrypted object and the DEK are stored on S3

@@ -7,11 +7,11 @@ Benefits:
 - Geopolitical Separation
 - Location Control - performance
 
-Some services are global like [[IAM]], or [[Route 53]]. While mosts others like [[EC2]] or tied to a region.
+Some services are global like [IAM](../Accounts/IAM.md), or [[Route 53]]. While mosts others like [EC2](../EC2/EC2.md) or tied to a region.
 
 ### Availability Zones
 Within a Region there are multiple availability zones which are isolated.
-![[Pasted image 20250121212626.png]]
+![Pasted image 20250121212626.png](_atts/Pasted%20image%2020250121212626.png)
 
 ## AWS Edge Locations
 Smaller, Local Distribution Points

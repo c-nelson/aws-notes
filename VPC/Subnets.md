@@ -1,15 +1,15 @@
 ***
-[[Resilience#AZ|AZ resiliency]]
+[AZ resiliency](../Fundamentals/Resilience.md#AZ)
 ***
-A subnet is a subnetwork of a VPC within a particular AZ. Services run on subnets inside a [[VPC]].
+A subnet is a subnetwork of a VPC within a particular AZ. Services run on subnets inside a [VPC](VPC.md).
 
-Subnets add structure to a [[Custom VPCs]].
+Subnets add structure to a [Custom VPCs](Custom%20VPCs.md).
 
 - Subnet start off as private
 	- Configurations to make public
 - A subnet is within a single AZ
 	- To make our service more resilient we put services into different subnets
-- Allocated an IPv4 CIDR subset of the [[VPC#VPC CIDR|VPC CIDR]]
+- Allocated an IPv4 CIDR subset of the [VPC CIDR](VPC.md#VPC%20CIDR)
 	- Cannot overlap with other subnets
 	- Optional IPv6 CIDR
 - Subnets can by default communicate with other subnets within the VPC
@@ -25,7 +25,7 @@ Subnets add structure to a [[Custom VPCs]].
 		- Even though broadcast is not supported within a VPC
 
 ## IP Allocation
-- IP allocation controlled by the VPC [[Custom VPCs#DHCP Option Set|DHCP Option Set]]
+- IP allocation controlled by the VPC [DHCP Option Set](Custom%20VPCs.md#DHCP%20Option%20Set)
 - Configurations within the subnet level:
 	- Auto Assign Public IPv4
 		- Controls if resources are allocated a public IP address in addition to their private subnet address

@@ -1,7 +1,7 @@
 ## Single PUT Upload
 - Default put operation
 - Operation `s3:PutObject`
-- Single data stream to [[S3]]
+- Single data stream to [S3](S3.md)
 - If stream fails, upload fails
 - Speed and reliability limited by 1 stream
 - Limited to up to 5GB
@@ -26,5 +26,5 @@
 - When enabled there is an accelerated endpoint provided
 - [Compare Speeds](http://s3-accelerate-speedtest.s3-accelerate.amazonaws.com/en/accelerate-speed-comparsion.html)
 
-![[Pasted image 20250211204734.png]]
-![[Pasted image 20250211204649.png]]
+![Pasted image 20250211204734.png](_atts/Pasted%20image%2020250211204734.png)
+![Pasted image 20250211204649.png](_atts/Pasted%20image%2020250211204649.png)

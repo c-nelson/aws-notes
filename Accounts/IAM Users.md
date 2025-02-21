@@ -1,8 +1,8 @@
-[[IAM]] users are an identity used for anything requiring long-term AWS access e.g. Humans, Apps, or a service accounts.
+[IAM](IAM.md) users are an identity used for anything requiring long-term AWS access e.g. Humans, Apps, or a service accounts.
 
 A Principal is the user or app requesting to be authenticated. After authentication, that Principal becomes an Authenticated Identity.
 
-![[Pasted image 20250130210316.png]]
+![Pasted image 20250130210316.png](_atts/Pasted%20image%2020250130210316.png)
 
 ### Important figures #AWSCommonTest 
 - 5000 IAM Users per account

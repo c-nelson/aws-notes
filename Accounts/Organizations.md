@@ -1,4 +1,4 @@
-Allows large organizations to manage multiple AWS [[Accounts]].
+Allows large organizations to manage multiple AWS [Accounts](Accounts.md).
 
 Within a "Standard AWS Account", you create an organization. That account then becomes the "Management Account".
 
@@ -11,18 +11,18 @@ At the top of the hierarchy, there is the "Organization Root" container. The Org
 
 New accounts can be created directly within an organization.
 
-![[Pasted image 20250206210454.png]]
+![Pasted image 20250206210454.png](_atts/Pasted%20image%2020250206210454.png)
 
 ## Billing
-Organizations allow consolidated [[billing]]. Member accounts have their billing passed to the Management Account, this could also be referred to as the Payer Account. This allows for volume discounts.
+Organizations allow consolidated [billing](Billing.md). Member accounts have their billing passed to the Management Account, this could also be referred to as the Payer Account. This allows for volume discounts.
 
 ## Users
-With organizations, changes the best practice for [[IAM Users]]. You don't need to have users within each account, you can instead use [[IAM Roles]] within the management account to allow access to the member accounts.
+With organizations, changes the best practice for [IAM Users](IAM%20Users.md). You don't need to have users within each account, you can instead use [IAM Roles](IAM%20Roles.md) within the management account to allow access to the member accounts.
 
 Under the account drop down menu, the Switch Role button can be used on the management account to easily switch into roles for other accounts and save them for later use.
 
 In practice this allows easy switching between accounts.
 
-![[Pasted image 20250206213941.png]]
+![Pasted image 20250206213941.png](_atts/Pasted%20image%2020250206213941.png)
 
 

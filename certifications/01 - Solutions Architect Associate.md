@@ -1,7 +1,7 @@
-- [[Accounts]]
-	- [[Billing]]
-	- [[IAM]]
+- [Accounts](../Accounts/Accounts.md)
+	- [Billing](../Accounts/Billing.md)
+	- [IAM](../Accounts/IAM.md)
 - Fundamentals
-	- [[Public vs Private Services]]
-	- [[Global Infrastructure]]
+	- [Public vs Private Services](../Fundamentals/Public%20vs%20Private%20Services.md)
+	- [Global Infrastructure](../Fundamentals/Global%20Infrastructure.md)
 	- 

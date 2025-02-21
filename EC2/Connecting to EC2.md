@@ -6,7 +6,7 @@ brings up a console in the browser.
 ## Session Manager
 
 ## SSH client
-Use the [[Creating EC2#SSH Key Pair|SSH Key Pair]] previously created.
+Use the [SSH Key Pair](Creating%20EC2.md#SSH%20Key%20Pair) previously created.
 
 1. Change the permissions of the `.pem` file.
    `chmod 400 example.pem`

@@ -8,9 +8,9 @@ An Account has:
 
 Root user always has full control.
 
-You should always create an [[IAM]] admin user to do admin tasks. Then the root account should rarely be used.
+You should always create an [IAM](IAM.md) admin user to do admin tasks. Then the root account should rarely be used.
 
-Use Identity and Access Management ([[IAM]]) Users, Groups and Roles to allow access.
+Use Identity and Access Management ([IAM](IAM.md)) Users, Groups and Roles to allow access.
 
 Creating multiple accounts is a good idea to containerize
 - Ex. - DEV, TEST, PROD

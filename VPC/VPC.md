@@ -25,6 +25,6 @@ Preconfigured with Internet Gateway, Security Group, and NACL.
 
 Subnets assign public IPv4 addresses.
 
-The default VPC spans a complete [[Global Infrastructure#AWS Regions|region]] but contains a subnet for each [[Global Infrastructure#Availability Zones|AZ]].
+The default VPC spans a complete [region](../Fundamentals/Global%20Infrastructure.md#AWS%20Regions) but contains a subnet for each [AZ](../Fundamentals/Global%20Infrastructure.md#Availability%20Zones).
 
-![[Pasted image 20250121214553.png]]
+![Pasted image 20250121214553.png](_atts/Pasted%20image%2020250121214553.png)
