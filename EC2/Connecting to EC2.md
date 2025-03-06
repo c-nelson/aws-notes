@@ -3,6 +3,7 @@ Right click on the instance and select "Connect".
 ## EC2 Instance Connect
 brings up a console in the browser.
 
+Instance connect uses [IAM](../Accounts/IAM.md) policies to control SSH access to your instance, without the need to manage SSH keys.
 ## Session Manager
 
 ## SSH client

@@ -22,7 +22,7 @@ When an instance is stopped you still pay for storage.
 
 ![Pasted image 20250121220955.png](_atts/Pasted%20image%2020250121220955.png)
 
-## AMI
+## [AMI](AMI.md)
 Amazon Machine Image
 
 Similar to a operating system image.
