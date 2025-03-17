@@ -51,7 +51,7 @@ Global Service Events always log to Northern Virginia region.
 
 #AWSCommonTest AWS contains many global and regional services. With CloudTrail they either log to the region the service is located in or us-east-1.
 
-If you want to log things like [IAM](../Accounts/IAM.md), [STS](../STS/STS.md), and [[CloudFront]], all regions will need to be enabled on a customized trail.
+If you want to log things like [IAM](../Accounts/IAM.md), [STS](STS.md), and [[CloudFront]], all regions will need to be enabled on a customized trail.
 
 #AWSCommonTest CloudTrail is not realtime, there is a delay. Typically, within 15 minutes of an event.
 
