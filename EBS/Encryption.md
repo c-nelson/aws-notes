@@ -8,7 +8,7 @@ The key is used to create a [DEK](../KMS/KMS.md#Data%20Encryption%20Keys%20(DEKs
 
 KMS sends the [EC2](../EC2/EC2.md) host the encryption key to hold in memory.
 
-[Snapshots](../EC2/Snapshots.md) are encrypted using the same key.
+[Snapshots](Snapshots.md) are encrypted using the same key.
 
 No cost for data encryption, should be used by default for EBS.
 

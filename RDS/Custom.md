@@ -1,0 +1,1 @@
+[RDS](RDS.md) Custom is a managed database service for applications that require customization of the underlying operating system and database environment. Benefits of RDS automation with the access needed for legacy, packaged, and custom applications.

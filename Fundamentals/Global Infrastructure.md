@@ -25,7 +25,7 @@ Generally only have content distribution systems and some type of edge computing
 	- Route 53
 - Region
 	- Operate in a single region with one set of data per region
-	- RDS database
+	- [RDS](../RDS/RDS.md) database
 	- EC2
 - AZ (Availability Zone)
 	- Operate from a single "datacenter".

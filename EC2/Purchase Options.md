@@ -39,7 +39,7 @@
 	- Resources managed by you
 - Most common use is if software licensing is based on hardware
 - AMI limits - RHEL, SUSE, Windows not supported
-- RDS instances are not supported
+- [RDS](../RDS/RDS.md) instances are not supported
 - [Placement Groups](Placement%20Groups.md) not supported
 - Can be shared with other organization accounts using Resource Access Manager
 - [https://aws.amazon.com/ec2/dedicated-hosts/pricing/](https://aws.amazon.com/ec2/dedicated-hosts/pricing/)

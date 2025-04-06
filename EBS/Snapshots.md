@@ -1,4 +1,4 @@
-[EBS](../EBS/EBS.md) Snapshots are backups of data consumed within EBS Volumes - Stored on [S3](../S3/S3.md).
+[EBS](EBS.md) Snapshots are backups of data consumed within EBS Volumes - Stored on [S3](../S3/S3.md).
 
 Snapshots are incremental, the first being a full backup - and any future snapshots being incremental. Each snapshot only records changed data.
 
