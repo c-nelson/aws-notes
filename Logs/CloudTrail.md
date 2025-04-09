@@ -18,12 +18,12 @@ It is enabled by default in AWS accounts and logs free information with a 90 day
 ## Management Events
 The only event logs enabled by default.
 
-Provide information on management events of services, like creating an [EC2](../EC2/EC2.md), stopping, deleting, creating a [VPC](../VPC/VPC.md) etc.
+Provide information on management events of services, like creating an [EC2](../Compute/EC2/EC2.md), stopping, deleting, creating a [VPC](../Network/VPC/VPC.md) etc.
 
 ## Data Events
 Not enabled by default.
 
-Information about resource operations performed on or in a resource. Like objects being uploaded or accessed via [S3](../S3/S3.md), or a [Lambda](../Lambda/Lambda.md) function being invoked.
+Information about resource operations performed on or in a resource. Like objects being uploaded or accessed via [S3](../Storage/S3/S3.md), or a [Lambda](../Compute/Lambda/Lambda.md) function being invoked.
 
 ## Insight Events
 
@@ -37,7 +37,7 @@ Unlike a default CloudTrail, a custom trail can be configured to store data inde
 
 Can also be integrated with [CloudWatch Logs](CloudWatch%20Logs.md) and the data stored there. Making the logs have more features such as being able to search and filter.
 
-Trails can be created at an [Organizations](../Accounts/Organizations.md) level, meaning the logs can be stored for all accounts. 
+Trails can be created at an [Organizations](../Security/Accounts/Organizations.md) level, meaning the logs can be stored for all accounts. 
 
 A trail is only created for a single region, it only logs for that region.
 
@@ -51,7 +51,7 @@ Global Service Events always log to Northern Virginia region.
 
 #AWSCommonTest AWS contains many global and regional services. With CloudTrail they either log to the region the service is located in or us-east-1.
 
-If you want to log things like [IAM](../Accounts/IAM.md), [STS](../Misc/STS.md), and [[CloudFront]], all regions will need to be enabled on a customized trail.
+If you want to log things like [IAM](../Security/Accounts/IAM.md), [STS](../Security/STS.md), and [[CloudFront]], all regions will need to be enabled on a customized trail.
 
 #AWSCommonTest CloudTrail is not realtime, there is a delay. Typically, within 15 minutes of an event.
 

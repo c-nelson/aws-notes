@@ -1,4 +1,4 @@
-Neither [Cloud Watch](CW.md) or [CloudWatch Logs](CloudWatch%20Logs.md) can natively capture data _inside_ an [EC2](../EC2/EC2.md) instance.
+Neither [Cloud Watch](CW.md) or [CloudWatch Logs](CloudWatch%20Logs.md) can natively capture data _inside_ an [EC2](../Compute/EC2/EC2.md) instance.
 
 CloudWatch Agent needs to be installed inside the instance.
 
@@ -27,7 +27,7 @@ sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
 
 4) Config saved in:
 	- `/opt/aws/amazon-cloudwatch-agent/bin/config.json`
-	- Wizard prompts to save config in [SSM Parameter Store](../Misc/SSM%20Parameter%20Store.md)
+	- Wizard prompts to save config in [SSM Parameter Store](../Security/SSM%20Parameter%20Store.md)
 5) Start agent:
 ```Bash
 # Bug Fix (these are needed else the agent won't start)

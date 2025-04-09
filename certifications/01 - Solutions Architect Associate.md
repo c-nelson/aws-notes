@@ -1,6 +1,6 @@
-- [Accounts](../Accounts/Accounts.md)
-	- [Billing](../Accounts/Billing.md)
-	- [IAM](../Accounts/IAM.md)
+- [Accounts](../Security/Accounts/Accounts.md)
+	- [Billing](../Security/Accounts/Billing.md)
+	- [IAM](../Security/Accounts/IAM.md)
 - Fundamentals
 	- [Public vs Private Services](../Fundamentals/Public%20vs%20Private%20Services.md)
 	- [Global Infrastructure](../Fundamentals/Global%20Infrastructure.md)

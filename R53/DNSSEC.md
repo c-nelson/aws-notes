@@ -4,7 +4,7 @@ DNSSEC strengthens authentication in DNS using digital signatures based on publi
 ![Pasted image 20250320203118.png](_atts/Pasted%20image%2020250320203118.png)
 Steps of DNSSEC
 
-1) Asymmetric [KMS](../KMS/KMS.md) Keys created by [R53](R53.md) called Key Signing Keys (KSK)
+1) Asymmetric [KMS](../Security/KMS/KMS.md) Keys created by [R53](R53.md) called Key Signing Keys (KSK)
 	- Public/Private
 	- Stored on US-EAST-1 #AWSCommonTest 
 2) R53 creates the Zone Signing Keys (ZSK) internally
@@ -16,4 +16,4 @@ Steps of DNSSEC
 5) Provide hash of the public KSK to the parent hosted zone
 
 - Can created [CW](../Logs/CW.md) alarms for DNSSEC issues
-- Can enable DNSSEC Validation on [VPC](../VPC/VPC.md)s so that invalid results on DNSSEC enabled zones won't be returned
+- Can enable DNSSEC Validation on [VPC](../Network/VPC/VPC.md)s so that invalid results on DNSSEC enabled zones won't be returned

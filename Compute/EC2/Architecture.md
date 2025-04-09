@@ -1,0 +1,26 @@
+## Hosts
+- [EC2](EC2.md) instances run on EC2 hosts (AWS Servers)
+	- Shared Hosts
+		- Default
+		- Shared across AWS accounts
+	- Dedicated Hosts
+		- Not shared hardware
+		- Just pay for the host, not instances running on it
+	- Hosts run in a single [AZ](../../Fundamentals/Resilience.md#AZ) #AWSCommonTest 
+- Instance Store - local storage to the host
+	- Temporary storage
+- Storage Networking - on each host
+	- Connect to the Elastic Block Store (EBS)
+		- Remote storage
+		- Allocate volumes
+		- Runs within a single AZ
+		- Can't be accessed across AZs
+			- Can never connect an EC2 to a volume or another EC2 in another AZ
+- Data Networking - on each host
+- Instances run on a single host
+	- Stay on host even after restarting
+	- Changes hosts if:
+		- Host fails or is taken down
+		- Instance is stopped and then started, different than restarting
+- Instances of different types can be on a host but
+	- Generally, instances of the same type but different sizes share a host

@@ -1,7 +1,7 @@
 Refers to networking only.
 
 ## Public service 
-is something that is accessed using public endpoints, such as S3. It can be accessed anywhere which has an internet connection. It can still be locked down via [IAM](../Accounts/IAM.md) users.
+is something that is accessed using public endpoints, such as S3. It can be accessed anywhere which has an internet connection. It can still be locked down via [IAM](../Security/Accounts/IAM.md) users.
 
 ## Private service
 is something that runs within a Virtualized Private Cloud (VPC). VPCs cannot be accessed by other services unless configured.

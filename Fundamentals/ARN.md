@@ -21,5 +21,5 @@ arn:aws:s3:::catgifs    // access to the bucket
 arn:aws:s3:::catgifs/*  // access to objects inside bucket
 ```
 
-When referenced in an [identity policy](../Accounts/Identity%20Policies.md), the first allows access to operations on the bucket itself and not the objects inside.
+When referenced in an [identity policy](../Security/Accounts/Identity%20Policies.md), the first allows access to operations on the bucket itself and not the objects inside.
 

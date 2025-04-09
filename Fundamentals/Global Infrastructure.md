@@ -7,7 +7,7 @@ Benefits:
 - Geopolitical Separation
 - Location Control - performance
 
-Some services are global like [IAM](../Accounts/IAM.md), or [[Route 53]]. While mosts others like [EC2](../EC2/EC2.md) or tied to a region.
+Some services are global like [IAM](../Security/Accounts/IAM.md), or [[Route 53]]. While mosts others like [EC2](../Compute/EC2/EC2.md) or tied to a region.
 
 ### Availability Zones
 Within a Region there are multiple availability zones which are isolated.
@@ -25,7 +25,7 @@ Generally only have content distribution systems and some type of edge computing
 	- Route 53
 - Region
 	- Operate in a single region with one set of data per region
-	- [RDS](../RDS/RDS.md) database
+	- [RDS](../Database/RDS/RDS.md) database
 	- EC2
 - AZ (Availability Zone)
 	- Operate from a single "datacenter".
