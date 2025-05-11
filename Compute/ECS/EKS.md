@@ -6,7 +6,7 @@ Elastic Kubernetes Service is a fully-managed, Kubernetes implementation that si
 	- EKS Anywhere
 	- EKS Distro
 - Control plane scales an runs on multiple AZs
-- Integrates with other services, [ECR](ECR.md), [[ELB]], [IAM](../../Security/Accounts/IAM.md), [VPC](../../Network/VPC/VPC.md)
+- Integrates with other services, [ECR](ECR.md), [ELB](../../Network/ELB/ELB.md), [IAM](../../Security/Accounts/IAM.md), [VPC](../../Network/VPC/VPC.md)
 - EKS Cluster == EKS Control Plane & EKS Nodes
 - etcd distrubuted across multiple AZs
 - Nodes can be:

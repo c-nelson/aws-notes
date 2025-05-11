@@ -17,7 +17,7 @@ Private means permissions are required for read-only or read-write.
 ## Benefits
 - Integrated with [IAM](../../Security/Accounts/IAM.md)
 - Security - image scanning, basic and enhanced
-- Metrics into [CW](../../Logs/CW.md)
-- API Actions into [CloudTrail](../../Logs/CloudTrail.md)
+- Metrics into [CW](../../Messages-Logs/CW/CW.md)
+- API Actions into [CloudTrail](../../Messages-Logs/CloudTrail.md)
 - Events into [[EventBridge]]
 - Replication of image cross region or cross account

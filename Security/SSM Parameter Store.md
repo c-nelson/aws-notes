@@ -13,7 +13,7 @@ The service integrates natively with many AWS services - and can be accessed usi
 		- /wordpress/DBUser
 		- /wordpress/DBpassword
 - Plaintext and ciphertext
-- Access from apps, [Lambda](../Compute/Lambda/Lambda.md) or [EC2](../Compute/EC2/EC2.md)
+- Access from apps, [Lambda](../Compute/Serverless/Lambda.md) or [EC2](../Compute/EC2/EC2.md)
 - Changes can create events
 
 Commands:

@@ -1,0 +1,18 @@
+- Documents that allow you to define the configuration of an [EC2](EC2.md) instance in advance
+- Configure
+	- [AMI](AMI.md)
+	- [Instance Types](Instance%20Types.md)
+	- Storage
+	- Key pair
+	- [Networking](Networking.md)
+	- [Security Groups](../../Network/VPC/Security%20Groups.md)
+	- Userdata & [IAM Roles](../../Security/Accounts/IAM%20Roles.md)
+- Both are not editable, defined once.
+	- Launch Templates have versions
+- Launch Templates provided newer features
+	- T2/T3 Unlimited
+	- [Placement Groups](Placement%20Groups.md)
+	- [Capacity Reservations](Purchase%20Options.md#Capacity%20Reservations)
+	- Elastic Graphics
+- Launch Configurations are only used for [Auto Scaling Groups](ASG/Auto%20Scaling%20Groups.md)
+- Launch Templates can be used by [Auto Scaling Groups](ASG/Auto%20Scaling%20Groups.md) or from console/[CLI](../../Misc/CLI.md)

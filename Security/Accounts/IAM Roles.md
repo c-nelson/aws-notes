@@ -39,7 +39,7 @@ Most commonly used for AWS Services themselves. The services need access to othe
 
 Create a role for a service to assume permissions to do its needed actions. This is better than hard coding permissions into the service for security reasons and/or causes problems when access keys change.
 
-Example with [Lambda](../../Compute/Lambda/Lambda.md):
+Example with [Lambda](../../Compute/Serverless/Lambda.md):
 ![Pasted image 20250204210759.png](_atts/Pasted%20image%2020250204210759.png)
 
 #### Emergencies

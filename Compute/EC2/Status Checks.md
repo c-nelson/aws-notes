@@ -15,7 +15,7 @@ With instance status monitoring, you can quickly determine whether [EC2](EC2.md)
 # Auto Recovery
 [https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-recover.html](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-recover.html)
 
-When an instance is set to auto recover, it performs the following through [Cloud Watch](../../Logs/CW.md):
+When an instance is set to auto recover, it performs the following through [Cloud Watch](../../Messages-Logs/CW/CW.md):
 - Moves an instance to a new host
 - Starts it with the same configuration
 	- Same instance ID

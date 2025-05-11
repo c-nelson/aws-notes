@@ -4,7 +4,7 @@ Static Website Hosting is a feature of the product which lets you define a HTTP 
 
 AWS creates a generated endpoint based on the bucket name.
 
-Custom domains can be created via [R53](../../R53/R53.md). The bucket name needs to follow the domain pattern that is going to be used.
+Custom domains can be created via [R53](../../Network/R53/R53.md). The bucket name needs to follow the domain pattern that is going to be used.
 
 Be aware that there are request charges to objects within [S3](S3.md). 
 ## Use cases

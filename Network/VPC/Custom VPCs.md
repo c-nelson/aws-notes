@@ -22,7 +22,7 @@ Custom [VPC](VPC.md)s allow:
 - Optional single assigned IPv6 /56 CIDR block
 
 DNS in a VPC
-- Provided by [R53](../../R53/R53.md)
+- Provided by [R53](../R53/R53.md)
 - DNS IP address is VPC Base + 2
 	- Ex. 10.0.0.0 -> 10.0.0.2
 - `enableDnsHostnames` - whether instances with public IPs in a VPC are given DNS names
