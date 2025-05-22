@@ -11,7 +11,7 @@ Provides metric, log and event management services
 - CloudWatch Logs - AWS Products, Apps, on-premises
 - CloudWatch Events - AWS Services & Schedules
 
-![Pasted image 20250128195412.png](Pasted%20image%2020250128195412.png)
+![Pasted image 20250128195412.png](_atts/Pasted%20image%2020250128195412.png)
 
 ## CW Concepts
 - Namespace

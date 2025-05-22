@@ -4,7 +4,7 @@ CloudWatch Agent needs to be installed inside the instance.
 
 Requires additional work on security permissions.
 
-![Pasted image 20250315215414.png](Pasted%20image%2020250315215414.png)
+![Pasted image 20250315215414.png](_atts/Pasted%20image%2020250315215414.png)
 
 ### Steps:
 1) Create an IAM role

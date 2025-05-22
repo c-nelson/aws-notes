@@ -7,7 +7,7 @@ It is often the default place where AWS Services can output their logging too.
 - AWS Integrations - EC2, VPC Flow Logs, Lambda, CloudTrail, R53 and more...
 - Can generate metric based on logs - **metric filter**
 
-![Pasted image 20250208212827.png](Pasted%20image%2020250208212827.png)
+![Pasted image 20250208212827.png](_atts/Pasted%20image%2020250208212827.png)
 
 Log Group is where configurations are made such as retentions and permissions. Also metric filters are on the log group level.
 

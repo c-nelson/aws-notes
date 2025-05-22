@@ -23,6 +23,6 @@ CNAME works when you want to point a NAME, that is not the naked domain, to anot
 	- [[CloudFront]]
 	- [[Elastic Beanstalk]]
 	- [ELB](../ELB/ELB.md)
-	- [[Global Accelerator]]
+	- [Global Accelerator](../CloudFront/Global%20Accelerator.md)
 	- [S3](../../Storage/S3/S3.md)
 	- 
