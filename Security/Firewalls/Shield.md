@@ -1,0 +1,26 @@
+AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. AWS Shield provides always-on detection and automatic inline mitigations that minimize application downtime and latency.
+
+- Types of attacks
+	- Network volumetric attacks (L3) - saturate capacity
+	- Network protocol attacks (L4) - TCP SYN flood
+		- Leave connections open to prevent new ones
+	- Application Layer attacks (L7) - e.g. web request floods
+- Standard
+	- Free - automatic protection
+	- Protection at the perimeter of the network
+		- Region/VPC or Edge
+	- Protects common network or transport layer attacks
+	- Best protection using [R53](../../Network/R53/R53.md), [CF](../../Network/CloudFront/CF.md), [Global Accelerator](../../Network/CloudFront/Global%20Accelerator.md)
+- Advanced
+	- Extra cost - $3000 per month per [Organizations](../Accounts/Organizations.md)
+	- 1 year commitment
+	- Protects [CF](../../Network/CloudFront/CF.md), [R53](../../Network/R53/R53.md), [Global Accelerator](../../Network/CloudFront/Global%20Accelerator.md), anything associated with EIPs ([EC2](../../Compute/EC2/EC2.md)), [ALBS, NLBS](../../Network/ELB/ALB%20vs%20NLB.md), CLBs
+	- Not automatic - must be explicitly enabled in Shield Advanced or Firewall Manager Shield advanced policy
+	- Benefits:
+		- Cost protection (i.e. EC2 scaling) for unmitigated attacks
+		- Proactive engagement & AWS Shield response team will contact you when attacks are detected
+	- [WAF](WAF.md) integration - includes basic WAF fees for web ACLS, rules and web requests
+	- Application layer protection (uses WAF)
+	- Real time visibility of events and attacks
+	- Health-based detection - application specific health checks, used by proactive engagement team
+	- Protections group - manage protection at a group level instead of a resource level

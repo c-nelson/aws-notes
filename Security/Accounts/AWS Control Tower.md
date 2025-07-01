@@ -9,7 +9,7 @@ Where most of the Control Tower multi-account operations are performed.
 
 Allows for well architected multi-account environtments with a Home Region.
 
-Build with [Organizations](Organizations.md), [[AWS Config]], and [CFN](../../Compute/CFN/CFN.md).
+Build with [Organizations](Organizations.md), [AWS Config](../../Messages-Logs/AWS%20Config.md), and [CFN](../../Compute/CFN/CFN.md).
 
 Creates:
 - Security Organizational Unit for Log Archive and Audit Accounts
@@ -31,7 +31,7 @@ Functions:
 - Preventive - stops accounts from doing things ([SCPs](SCPs.md))
 	- enforced or not enabled
 	- Ex. allow/deny regions, disallow policy changes
-- Detective - compliance checks ([[AWS Config]] rules)
+- Detective - compliance checks ([AWS Config](../../Messages-Logs/AWS%20Config.md) rules)
 	- Clear, in violation or not enabled
 	- Ex. CloudTrail enabled or EC2 public IPv4
 
