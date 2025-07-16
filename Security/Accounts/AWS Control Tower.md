@@ -9,7 +9,7 @@ Where most of the Control Tower multi-account operations are performed.
 
 Allows for well architected multi-account environtments with a Home Region.
 
-Build with [Organizations](Organizations.md), [AWS Config](../../Messages-Logs/AWS%20Config.md), and [CFN](../../Compute/CFN/CFN.md).
+Build with [Organizations](Organizations.md), [AWS Config](../../Messages-Logs/AWS%20Config.md), and [CloudFormation](../../Compute/CloudFormation/CloudFormation.md).
 
 Creates:
 - Security Organizational Unit for Log Archive and Audit Accounts

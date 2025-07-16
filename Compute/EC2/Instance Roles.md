@@ -7,7 +7,7 @@ Instance Profile -
 - The profile is what is attached to the instance, not the role.
 - Allows permissions to get into the instance
 - When creating an instance role in UI, profile is created automatically
-- In [CFN](../CFN/CFN.md) or command-line, instance role and profile need to be created separately
+- In [CloudFormation](../CloudFormation/CloudFormation.md) or command-line, instance role and profile need to be created separately
 - Credentials at `http://169.254.169.254/latest/meta-data/iam/security-credentials/role-name`
 - Automatically rotated
 

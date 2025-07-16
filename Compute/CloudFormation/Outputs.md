@@ -1,0 +1,3 @@
+The optional `Outputs` section declares output values that you can import into other stacks (to create cross-stack references), return in response (to describe stack calls), or view on the [CloudFormation](CloudFormation.md) console. For example, you can output the S3 bucket name for a stack to make the bucket easier to find.
+
+![Pasted image 20250708214714.png](_atts/Pasted%20image%2020250708214714.png)

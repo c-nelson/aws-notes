@@ -8,7 +8,7 @@ With [EC2](EC2.md) this is accomplished by passing a script via the User Data pa
 	- Anything in User Data is executed by the instance OS
 	- Only executed on launch
 - EC2 doesn't interpret or validate, OS needs to understand the User Data
-- User Data script can be passed into [CFN](../CFN/CFN.md)
+- User Data script can be passed into [CloudFormation](../CloudFormation/CloudFormation.md)
 
 ### User Data
 - ﻿﻿It's opaque to EC2 .. its just a block of data
