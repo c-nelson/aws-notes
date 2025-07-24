@@ -16,6 +16,6 @@ Flow Logs can be stored on [S3](../../Storage/S3/S3.md) or [CloudWatch Logs](../
 	- Subnet - all ENIs in that subnet
 	- ENIs directly
 - **Not realtime**
-- [[Athena]] for querying
+- [Athena](../../Database/Athena.md) for querying
 
 ![Pasted image 20250522200947.png](_atts/Pasted%20image%2020250522200947.png)

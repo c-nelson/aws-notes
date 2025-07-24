@@ -8,7 +8,7 @@ Glue is a fully managed extract, transform, and load (ETL) service that makes it
 	- [S3](../../Storage/S3/S3.md)
 	- [RDS](../../Database/RDS/RDS.md)
 	- JDBC Compatible
-	- [[DynamoDB]]
+	- [DynamoDB](../../Database/DynamoDB/DynamoDB.md)
 - Data Source Streams:
 	- [Kinesis Data Streams](../../Messages-Logs/Kinesis/Kinesis%20Data%20Streams.md)
 	- Apache Kafka

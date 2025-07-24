@@ -28,6 +28,6 @@ Available states:
 - PARALLEL - perform at same time
 - MAP - accepts a list, performs action on them
 - TASK - single unit of work performed by state machine
-	- [Lambda](Lambda.md), Batch, [[DynamoDB]], [ECS](../ECS/ECS.md), [SNS](../../Messages-Logs/SNS.md), [SQS](../../Messages-Logs/SQS.md), Glue, SageMaker, EMR, Step Functions
+	- [Lambda](Lambda.md), Batch, [DynamoDB](../../Database/DynamoDB/DynamoDB.md), [ECS](../ECS/ECS.md), [SNS](../../Messages-Logs/SNS.md), [SQS](../../Messages-Logs/SQS.md), Glue, SageMaker, EMR, Step Functions
 
 ![Pasted image 20250429205151.png](_atts/Pasted%20image%2020250429205151.png)

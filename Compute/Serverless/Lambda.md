@@ -17,7 +17,7 @@
 ## Common uses
 - Serverless Apps ([S3](../../Storage/S3/S3.md), [API Gateway](API%20Gateway.md), Lambda)
 - File Processing (S3, S3 [Events](../../Storage/S3/Events.md), Lambda)
-- Database Triggers ([[DynamoDB]], Streams, Lambda)
+- Database Triggers ([DynamoDB](../../Database/DynamoDB/DynamoDB.md), Streams, Lambda)
 - Serverless CRON ([[EventBridge]], [CW](../../Messages-Logs/CW/CW.md) Events, Lamdba)
 - Realtime Stream Data Processing ([[Kinesis]], Lambda)
 

@@ -1,5 +1,5 @@
 # Gateway Endpoints
-Gateway endpoints are a type of [VPC](VPC.md) endpoint which allow access to [S3](../../Storage/S3/S3.md) and [[DynamoDB]] without using public addressing.
+Gateway endpoints are a type of [VPC](VPC.md) endpoint which allow access to [S3](../../Storage/S3/S3.md) and [DynamoDB](../../Database/DynamoDB/DynamoDB.md) without using public addressing.
 
 Gateway endpoints add 'prefix lists' to route table, allowing the VPC [router](Routing%20&%20Internet%20Gateway.md) to direct traffic flow to the public services via the gateway endpoint.
 

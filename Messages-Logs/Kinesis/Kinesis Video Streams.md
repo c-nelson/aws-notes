@@ -4,6 +4,6 @@ Kinesis Video Streams makes it easy to securely stream video from connected devi
 - Consumers can access data frame-by-frame or as needed
 - Can persist and encrypt
 - Can't access directly via storage, only via APIs
-- Integrates with other AWS Service like [[Rekognition]] and Connect
+- Integrates with other AWS Service like [Rekognition](../../Compute/ML/Rekognition.md) and Connect
 
 ![Pasted image 20250510203353.png](_atts/Pasted%20image%2020250510203353.png)
